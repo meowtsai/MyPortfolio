@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-reset.css" rel="stylesheet">
         <title>Shih Fan Tsai - portfolio</title>
     </head>
     <body>
@@ -11,15 +13,19 @@
             <section class="hero">
                 <div class="container">
                     <div class="row">
-                    <img  class="logo-image" src="images/udacity.svg" alt="Udacity Logo" />
-                    <div class="header-main">
-                        <h1 class="header-name color2">Sophie Tsai</h1>
-                        <h3 class="header-title color2">Web Developer</h3>
-                    </div>
+                        <div class="col-sm-12">
+                            <img  class="logo-image" src="images/udacity.svg" alt="Udacity Logo" />
+                            <div class="header-main">
+                                <h1 class="header-name color2">Sophie Tsai</h1>
+                                <h3 class="header-title color2">Web Developer</h3>
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
-                        <hr class="divider"/>
-                        <img  src="images/main_media.png" alt="main visual art" />  
+                        <div class="col-sm-12">
+                            <hr class="divider"/>
+                            <img  src="images/main_media.png" alt="main visual art" />
+                        </div>
                     </div>
                 </div>
             </section>
@@ -29,19 +35,21 @@
         <section class="section">
             <div class="container">
                 <div class="row">
+					<div class="col-sm-12">
                     <h1 class="color3">Featured Works</h1>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="work">
+                    <div class="col-sm-4">
                         <a class="color2" href="https://github.com/meowtsai/ud036_StarterCode">
                             <img src="images/project1.png" alt="Python - Movie Trailer Website">
                             <h3 class="project_name color2">Python project</h3>
-                            <div class="project_url color2 ellipsis">
-                                https://github.com/meowtsai/ud036_StarterCode</div>
+                            <p class="project_url color2 ellipsis">
+                                https://github.com/meowtsai/ud036_StarterCode</p>
                         </a>
                         <p></p>
                     </div>
-                    <div class="work">
+                    <div class="col-sm-4">
                         <a class="color2" href="https://github.com/meowtsai/nd019MyReads">
                             <img src="images/project2.png" alt="React - MyReads">
                             <h3 class="project_name color2">React project</h3>
@@ -49,7 +57,7 @@
                         </a>
                         <p></p>
                     </div>
-                    <div class="work">
+                    <div class="col-sm-4">
                         <a class="color2" href="https://github.com/meowtsai/Movies-Stage-2">
                             <img src="images/project3.png" alt="Android App - Movies">
                             <h3 class="project_name color2">Android project</h3>
